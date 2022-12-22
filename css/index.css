@@ -1,514 +1,514 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 input {
-    outline: 0;
+  outline: 0;
 }
 
 .firstSession > header {
-    width: 100%;
-    background-image: url('/images/primeira/header.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  background-image: url('/images/primeira/header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .firstSession > header > img {
-    margin: 10px 50px;
-    height: 70px;
+  margin: 10px 50px;
+  height: 70px;
 }
 
-.firstSession > main{
-    width: 100%;
-    height: 200vh;
-    background-image: url('/images/background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
+.firstSession > main {
+  width: 100%;
+  height: 200vh;
+  background-image: url('/images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
 }
 
 .firstSession > main > div:first-child {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    text-align: center;
-    height: calc(100vh - 200px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: center;
+  height: calc(100vh - 200px);
 }
 
 .firstSession > main > div:first-child > div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: auto;
-    max-width: 700px;
-    margin-right: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  max-width: 700px;
+  margin-right: 5vw;
 
-    font-size: 30px;
-    letter-spacing: 0;
+  font-size: 30px;
+  letter-spacing: 0;
 }
 
 .firstSession > main > div:first-child > div > h1 {
-    letter-spacing: 0;
-    font-weight: 200;
-    color: white;
-    font-size: 30px;
+  letter-spacing: 0;
+  font-weight: 200;
+  color: white;
+  font-size: 30px;
 }
 
 .firstSession > main > div:first-child > div > p {
-    letter-spacing: 0;
-    font-weight: 300;
-    font-style: italic;
-    color: white;
-    font-size: 30px;
+  letter-spacing: 0;
+  font-weight: 300;
+  font-style: italic;
+  color: white;
+  font-size: 30px;
 }
 
 .firstSession > main > div:last-child {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-top: 250px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 250px;
 }
 
 .firstSession > main > div:last-child > div:first-child {
-    width: 100%;
+  width: 100%;
 }
 
 .firstSession > main > div:last-child > div:first-child > img {
-    height: 80vh;
-    width: 100%;
-    object-fit: cover;
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
 }
 
 .firstSession > main > div:last-child > div:last-child {
-    padding: 0 5%;
-    color: white;
-    text-align: center;
+  padding: 0 5%;
+  color: white;
+  text-align: center;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .firstSession > main > div:last-child > div:last-child > h2 {
-    font-weight: 600;
-    font-style: italic;
-    font-size: 24px;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 24px;
 }
 
 .firstSession > main > div:last-child > div:last-child > p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 35px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
 
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .firstSession > main > div:last-child > div:last-child > p > span {
-    display: block;
-    font-size: 12px;
+  display: block;
+  font-size: 12px;
 }
 
 .firstSession > main > div:last-child > div:last-child > button {
-    color: #FF6600;
-    padding: 13px 25px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border-radius: 13px;
-    border: none;
+  color: #ff6600;
+  padding: 13px 25px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  border: none;
 
-    font-size: 20px;
-    font-weight: 400;
+  font-size: 20px;
+  font-weight: 400;
 
-    max-width: 300px;
+  max-width: 300px;
 }
 
 .terceiraSession {
-    width: 90%;
-    padding: 100px 5%;
+  width: 90%;
+  padding: 100px 5%;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .terceiraSession > div:first-child > img {
-    height: 80vh;
-    object-fit: cover;
+  height: 80vh;
+  object-fit: cover;
 }
 
 .terceiraSession > div:last-child {
-    width: 50%;
-    text-align: center;
+  width: 50%;
+  text-align: center;
 }
 
 .terceiraSession > div:last-child > h3 {
-    color: #909090;
-    font-size: 30px;
-    font-weight: 500;
+  color: #909090;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .terceiraSession > div:last-child > h2 {
-    color: #FF6600;
-    font-size: 70px;
-    font-weight: 600;
-    font-style: italic;
-    margin-bottom: 30px;
+  color: #ff6600;
+  font-size: 60px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 30px;
 }
 
 .terceiraSession > div:last-child > p {
-    color: #909090;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 50px;
+  color: #909090;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 50px;
 }
 
 .quartaSession {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 50px;
-    width: 95%;
-    margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  width: 95%;
+  margin: auto;
 }
 
 .quartaSession > div > img {
-    width: 100%;
+  width: 100%;
 }
 
 .quintaSession {
-    background: url('/images/background-sessions.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    padding: 70px 0;
+  background: url('/images/background-sessions.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 70px 0;
 }
 
 .quintaSession > h2 {
-    font-size: 40px;
-    font-style: italic;
+  font-size: 40px;
+  font-style: italic;
 }
 
 .quintaSession > p {
-    font-size: 20px;
-    font-weight: 600;
-    width: 50%;
-    margin: auto;
-    line-height: 35px;
-    margin-top: 35px;
+  font-size: 20px;
+  font-weight: 600;
+  width: 50%;
+  margin: auto;
+  line-height: 35px;
+  margin-top: 35px;
 }
 
 .quintaSession > button {
-    background-color: white;
-    border: none;
-    border-radius: 10px;
-    font-size: 30px;
-    color: #FF6600;
-    padding: 5px 20px;
-    margin-top: 35px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #ff6600;
+  padding: 5px 20px;
+  margin-top: 35px;
 }
 
 .sextaSession > h2 {
-    text-align: center;
-    font-style: italic;
-    text-decoration: underline;
-    color: #FF6600;
-    font-size: 50px;
-    margin-top: 35px;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  color: #ff6600;
+  font-size: 50px;
+  margin-top: 35px;
 }
 
 .sextaSession > div {
-    display: flex;
-    color: #FF6600;
-    font-size: 30px;
-    font-weight: 500;
-    align-items: center;
-    margin-top: 35px;
+  display: flex;
+  color: #ff6600;
+  font-size: 30px;
+  font-weight: 500;
+  align-items: center;
+  margin-top: 35px;
 }
 
 .sextaSession > div > div:first-child {
-    width: 50%;
+  width: 50%;
 }
 
 .sextaSession > div > div:first-child > ul > li {
-    display: flex;
-    align-items: center;
-    margin: 45px;
+  display: flex;
+  align-items: center;
+  margin: 45px;
 }
 
 .sextaSession > div > div:first-child > ul > li > img {
-    width: 35px;
-    margin-right: 25px;
+  width: 35px;
+  margin-right: 25px;
 }
 
 .sextaSession > div > div:last-child > img {
-    width: 100%
+  width: 100%;
 }
 
 .setimaSession > h2 {
-    text-align: center;
-    font-style: italic;
-    text-decoration: underline;
-    color: #FF6600;
-    font-size: 50px;
-    margin-top: 35px;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  color: #ff6600;
+  font-size: 50px;
+  margin-top: 35px;
 }
 
 .setimaSession > div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 35px;
-    margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 35px;
+  margin-top: 35px;
 }
 
 .setimaSession > div > div {
-    width: 45%;
+  width: 45%;
 }
 
 .setimaSession > div > div > img {
-    width: 100%;
+  width: 100%;
 }
 
 .oitavaSession {
-    background: url('/images/background-sessions.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 35px 0;
+  background: url('/images/background-sessions.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 35px 0;
 }
 
 .oitavaSession > div:first-child {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .oitavaSession > div:first-child > h3 {
-    font-size: 30px;
-    font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .oitavaSession > div:first-child > h2 {
-    font-size: 50px;
-    font-style: italic;
+  font-size: 50px;
+  font-style: italic;
 }
 
 .oitavaSession > div:nth-child(2) {
-    display: flex;
-    align-items: center;
-    margin-top: 35px;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  justify-content: center;
 }
 
 .oitavaSession > div:nth-child(2) > div {
-    width: 40%;
-    padding: 0 2.5%;
+  width: 40%;
+  padding: 0 2.5%;
 }
 
 .oitavaSession > div:nth-child(2) > div:first-child {
-    color: white;
-    font-size: 24px;
-    font-weight: 500;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .oitavaSession > div:nth-child(2) > div:first-child > label > input {
-    background-color: white;
-    border: none;
-    padding: 5px 10px;
-    font-size: 24px;
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 24px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .oitavaSession > div:nth-child(2) > div:first-child > button {
-    background-color: white;
-    border: none;
-    padding: 5px 20px;
-    font-size: 24px;
-    color: #FF6600;
-    border-radius: 10px;
-    margin: 25px auto;
-    width: 350px;
+  background-color: white;
+  border: none;
+  padding: 5px 20px;
+  font-size: 24px;
+  color: #ff6600;
+  border-radius: 10px;
+  margin: 25px auto;
+  width: 350px;
 }
 
 .oitavaSession > div:last-child {
-    text-align: center;
-    color: white;
-    margin-top: 35px;
+  text-align: center;
+  color: white;
+  margin-top: 35px;
 }
 
 .oitavaSession > div:last-child > p {
-    font-size: 24px;
-    font-weight: 500;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .oitavaSession > div:last-child > p > span {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .oitavaSession > div:last-child > img {
-    margin-top: 35px;
+  margin-top: 35px;
 }
 
-@media (max-width: 768px) {
-    .firstSession header img {
-        height: 80px;
-    }
+@media (max-width: 984px) {
+  .firstSession header img {
+    height: 80px;
+  }
 
-    .firstSession > main{
-        height: 190vh;
-        background-image: url('/images/background-mobile.png');
-        background-position: center;
-    }
+  .firstSession > main {
+    height: 190vh;
+    background-image: url('/images/background-mobile.png');
+    background-position: center;
+  }
 
-    .firstSession > main > div:first-child {
-        height: calc(100vh - 180px);
-        justify-content: center;
-    }
+  .firstSession > main > div:first-child {
+    height: calc(100vh - 180px);
+    justify-content: center;
+  }
 
-    .firstSession > main > div:first-child > div {
-        width: 100%;
-        padding: 0;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-    }
+  .firstSession > main > div:first-child > div {
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
 
-    .firstSession > main > div:first-child > div > h1 {
-        font-size: 20px;
-    }
+  .firstSession > main > div:first-child > div > h1 {
+    font-size: 20px;
+  }
 
-    .firstSession > main > div:first-child > div > p {
-        font-size: 20px;
-    }
+  .firstSession > main > div:first-child > div > p {
+    font-size: 20px;
+  }
 
-    .firstSession > main > div:last-child {
-        display: grid;
-        grid-template-columns: 100%;
-        margin-top: 50px;
-    }
+  .firstSession > main > div:last-child {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: 50px;
+  }
 
-    .firstSession > main > div:last-child > div:first-child {
-        order: 2;
-        margin-top: 10px;
-    }
+  .firstSession > main > div:last-child > div:first-child {
+    order: 2;
+    margin-top: 10px;
+  }
 
-    .firstSession > main > div:last-child > div:last-child > h2 {
-        font-weight: 600;
-        font-style: italic;
-        font-size: 20px;
-    }
-    
-    .firstSession > main > div:last-child > div:last-child > p {
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 35px;
-    
-        margin-bottom: 20px;
-    }
+  .firstSession > main > div:last-child > div:last-child > h2 {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+  }
 
-    .terceiraSession {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 500px;
-        padding: 0;
-        width: 100%;
-    }
+  .firstSession > main > div:last-child > div:last-child > p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
 
-    .terceiraSession > div:first-child {
-        order: 2;
-    }
+    margin-bottom: 20px;
+  }
 
-    .terceiraSession > div:first-child > img {
-        width: 100%;
-        object-fit: cover;
-    }
+  .terceiraSession {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+    padding: 0;
+    width: 100%;
+  }
 
-    .terceiraSession > div:last-child {
-        width: 100%;
-    }
+  .terceiraSession > div:first-child {
+    order: 2;
+  }
 
-    .terceiraSession > div:last-child > h3 {
-        font-size: 20px;
-    }
+  .terceiraSession > div:first-child > img {
+    width: 100%;
+    object-fit: cover;
+  }
 
-    .terceiraSession > div:last-child > h2 {
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
+  .terceiraSession > div:last-child {
+    width: 100%;
+  }
 
-    .terceiraSession > div:last-child > p {
-        font-size: 16px;
-        line-height: 30px;
-        margin-bottom: 30px;
-    }
+  .terceiraSession > div:last-child > h3 {
+    font-size: 20px;
+  }
 
-    .quartaSession {
-        grid-template-columns: 1fr;
-        row-gap: 50px;
-        margin-top: 50px;
-    }
+  .terceiraSession > div:last-child > h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
 
-    .quintaSession > p {
-        width: 90%;
-    }
+  .terceiraSession > div:last-child > p {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
 
-    .sextaSession > div {
-        flex-direction: column;
-    }
+  .quartaSession {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    margin-top: 50px;
+  }
 
-    .sextaSession > div > div:first-child {
-        width: 100%;
-    }
+  .quintaSession > p {
+    width: 90%;
+  }
 
-    .sextaSession > div > div:first-child > ul > li {
-        margin: 35px 15px;
-        font-size: 24px;
-    }
+  .sextaSession > div {
+    flex-direction: column;
+  }
 
-    .sextaSession > div > div:last-child > img {
-        width: 100%
-    }
+  .sextaSession > div > div:first-child {
+    width: 100%;
+  }
 
-    .setimaSession > div {
-        flex-direction: column;
-        margin: 0;
-        width: 100%;
-        padding: 0;
-    }
+  .sextaSession > div > div:first-child > ul > li {
+    margin: 35px 15px;
+    font-size: 24px;
+  }
 
-    .setimaSession > div > div {
-        width: calc(100% - 40px);
-        margin: 20px;
-    }
+  .sextaSession > div > div:last-child > img {
+    width: 100%;
+  }
 
-    .oitavaSession > div:nth-child(2) {
-        flex-direction: column;
-    }
+  .setimaSession > div {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+  }
 
-    .oitavaSession > div:nth-child(2) > div {
-        width: 95%;
-        padding: 0 2.5%;
-    }
+  .setimaSession > div > div {
+    width: calc(100% - 40px);
+    margin: 20px;
+  }
 
-    .oitavaSession > div:nth-child(2) > div:first-child > label {
-        width: calc(100% - 20px);
-    }
+  .oitavaSession > div:nth-child(2) {
+    flex-direction: column;
+  }
 
-    .oitavaSession > div:nth-child(2) > div:first-child > button {
-        width: 100%;
-    }
+  .oitavaSession > div:nth-child(2) > div {
+    width: 95%;
+    padding: 0 2.5%;
+  }
+
+  .oitavaSession > div:nth-child(2) > div:first-child > label {
+    width: calc(100% - 20px);
+  }
+
+  .oitavaSession > div:nth-child(2) > div:first-child > button {
+    width: 100%;
+  }
 }
