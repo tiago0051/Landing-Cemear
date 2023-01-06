@@ -115,7 +115,8 @@ input {
   font-size: 12px;
 }
 
-.firstSession > main > div:last-child > div:last-child > button {
+.firstSession > main > div:last-child > div:last-child > a {
+  text-decoration: none;
   color: #ff6600;
   padding: 13px 25px;
   background: #ffffff 0% 0% no-repeat padding-box;
@@ -203,16 +204,17 @@ input {
   margin: auto;
   line-height: 35px;
   margin-top: 35px;
+  margin-bottom: 35px;
 }
 
-.quintaSession > button {
+.quintaSession > a {
+  text-decoration: none;
   background-color: white;
   border: none;
   border-radius: 10px;
   font-size: 30px;
   color: #ff6600;
   padding: 5px 20px;
-  margin-top: 35px;
 }
 
 .sextaSession > h2 {
@@ -257,7 +259,7 @@ input {
   font-style: italic;
   text-decoration: underline;
   color: #ff6600;
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 35px;
 }
 
@@ -331,11 +333,13 @@ input {
   margin-bottom: 15px;
 }
 
-.oitavaSession > div:nth-child(2) > div:first-child > button {
+.oitavaSession > div:nth-child(2) > div:first-child > a {
   background-color: white;
+  text-decoration: none;
+  text-align: center;
   border: none;
   padding: 5px 20px;
-  font-size: 24px;
+  font-size: 20px;
   color: #ff6600;
   border-radius: 10px;
   margin: 25px auto;
@@ -508,7 +512,7 @@ input {
     width: calc(100% - 20px);
   }
 
-  .oitavaSession > div:nth-child(2) > div:first-child > button {
-    width: 100%;
+  .oitavaSession > div:nth-child(2) > div:first-child > a {
+    width: 80%;
   }
 }
